@@ -35,9 +35,9 @@ function Sobremim() {
 
         <Col md={8} className="d-flex align-items-center">
           <p className="text-white">
-            Olá! Sou um desenvolvedor apaixonado por tecnologia e soluções criativas. 
-            Com experiência em várias áreas, adoro aprender e me aprimorar constantemente.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet accusamus odio sint tempore non maiores, aliquam voluptatibus reiciendis, quasi soluta quaerat fugit praesentium sequi ea harum temporibus voluptates possimus accusantium!
+            Opa, eai! Sou <span className="text-primary">Luca Botini</span>.<br/>Um <span className="text-primary">solucionador de problemas</span> que o seu negócio <span className="text-primary">precisa</span>! 
+            Com experiência em diversas tecnologias, adoro aprender e me aprimorar constantemente. O trabalho em equipe é essencial mas o desafio pessoal é também um grande ponto. Adoro solucionar os desáfios e ajudar o grupo sempre que possivel!
+            
           </p>
         </Col>
       </Row>

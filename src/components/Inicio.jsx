@@ -38,15 +38,17 @@ function Inicio() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.2 }}
           >
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/LucaBotini" target="_blank" rel="noopener noreferrer">
               <motion.img
-                src="github.gif"
+                src="github.svg"
                 alt="Perfil GitHub"
                 className="img-fluid"
+                height="48"
+                width="48"
                 whileHover={{ scale: 1.1 }}
               />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://linkedin.com/in/lucabotini" target="_blank" rel="noopener noreferrer">
               <motion.img
                 src="linkedin.svg"
                 alt="Perfil LinkedIn"

@@ -1,54 +1,83 @@
 import React from "react";
-import { Carousel, Container } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function Projetos() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3, // Quantidade de cards visíveis
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: { slidesToShow: 2 }
+      },
+      {
+        breakpoint: 768,
+        settings: { slidesToShow: 1 }
+      }
+    ]
+  };
+
+  const projetos = [
+    {
+      img: "login1.png",
+      titulo: "Sistema Estética Automotiva",
+      descricao: "Gerencia clientes por placa, nome e contato.",
+      tecnologias: "Javascript, Node.js, Express, Bootstrap",
+      link: "https://botiniwashmotos.squareweb.app" // Adicione o link aqui
+    },
+    {
+      img: "botsDiscord.png",
+      titulo: "Automação BOTS Discord",
+      descricao: "Ajuda empreendedores a organizar sua loja e servidor.",
+      tecnologias: "Javascript, Typescript, Node.js, Express",
+      link: "https://discord.gg/wwzFuVp9sY" // Adicione o link aqui
+    },
+    {
+      img: "portfolioprojeto.png",
+      titulo: "Botini Portfólio",
+      descricao: "Plataforma para apresentar projetos e presença digital.",
+      tecnologias: "React Vite, Javascript, Bootstrap",
+      link: "" // Adicione o link aqui
+    }
+  ];
+
   return (
-    <Container className="text-center mt-5">
-      <h1 className="text-white mb-4">Meus Projetos</h1>
+    <div className="container text-center mt-6 px-4">
+      <h1 className="text-3xl font-semibold text-gray-800 mb-8 text-white">Meus Projetos</h1>
 
-      <Carousel>
-        {/* Slide 1 */}
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="login1.png"
-            alt="Projeto 1"
-   
-          />
-          <Carousel.Caption>
-            <h3>Sistema Estética Automotiva.</h3>
-            <p>Utilizado para gerenciar todos os clientes por placa, nome, facilidade de contato e demais informações do dia a dia.<br/>Tecnologias: Javascript, Nodejs, Express, Bootstrap.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-
-        {/* Slide 2 */}
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="botsDiscord.png"
-            alt="Projeto 2"
-          />
-          <Carousel.Caption>
-            <h3>Automação BOTS Discord.</h3>
-            <p>Criado para pequenos empreendedores conseguirem organizar sua loja e servidor no Discord, com sistema de Tickets, Whitelist automática, banimentos e demais funções.<br/>Tecnologias: Javascript, Typescript, Nodejs, Express.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-
-        {/* Slide 3 */}
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="portfolioprojeto.png"
-            alt="Botini Portfólio."
-          />
-          <Carousel.Caption>
-            <h3>Botini Portfólio.</h3>
-            <p>Criado para divulgar meus projetos e fortalecer minha presença no mercado de desenvolvimento, transmitindo uma imagem mais profissional e confiável<br/>Tecnologias: React Vite, Bootstrap.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
-    </Container>
+      <Slider {...settings}>
+        {projetos.map((projeto, index) => (
+          <div key={index} className="p-4">
+            <a
+              href={projeto.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-decoration-none"
+            >
+              <div className="card bg-white shadow-lg rounded-xl overflow-hidden transform hover:scale-105 transition duration-300 h-full">
+                <img
+                  src={projeto.img}
+                  className="card-img-top w-full h-48 object-cover"
+                  alt={projeto.titulo}
+                />
+                <div className="card-body p-5 h-56">
+                  <h5 className="card-title text-xl font-semibold text-gray-800">{projeto.titulo}</h5>
+                  <p className="card-text text-gray-600 mt-3">{projeto.descricao}</p>
+                  <p className="text-sm text-gray-500 mt-2"><strong>Tecnologias:</strong> {projeto.tecnologias}</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        ))}
+      </Slider>
+    </div>
   );
 }
 
