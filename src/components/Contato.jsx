@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../../src/App.css"
 
 function Contato() {
   const [formData, setFormData] = useState({
@@ -61,7 +62,7 @@ function Contato() {
             animate={{ opacity: 1 }}
             transition={{ duration: 1.5 }}
           >
-            <h3 className="text-white">Entre em Contato</h3>
+            <h3 className="text-white text-center">Entre em Contato</h3>
             <Form onSubmit={handleSubmit}>
               <Form.Group controlId="formName">
                 <Form.Label className="text-white">Nome</Form.Label>
@@ -71,6 +72,7 @@ function Contato() {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
+                  className="bg-transparent colorText neon-borderForm rounded-0"
                   required
                 />
               </Form.Group>
@@ -83,6 +85,7 @@ function Contato() {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
+                  className="bg-transparent colorText neon-borderForm rounded-0"
                   required
                 />
               </Form.Group>
@@ -92,15 +95,16 @@ function Contato() {
                 <Form.Control
                   as="textarea"
                   rows={3}
-                  placeholder="Sua mensagem"
+                  placeholder="Sua mensagem. Caso preferir, deixe seu número de contato aqui."
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
+                  className="bg-transparent colorText neon-borderForm rounded-0"
                   required
                 />
               </Form.Group>
 
-              <Button variant="primary" type="submit" className="mt-3">
+              <Button variant="primary" type="submit" className="mt-3 mb-3">
                 Enviar
               </Button>
             </Form>

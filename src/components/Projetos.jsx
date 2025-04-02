@@ -62,7 +62,7 @@ function Projetos() {
               rel="noopener noreferrer"
               className="text-decoration-none"
             >
-              <div className="card bg-white rounded-xl overflow-hidden transform hover:scale-105 transition duration-300 h-full neon-border">
+              <div className="card fundo rounded-xl overflow-hidden transform hover:scale-105 transition duration-300 h-full neon-border text-white ">
                 <img
                   src={projeto.img}
                   className="card-img-top w-full h-48 object-cover"

@@ -1,15 +1,33 @@
-body{
+body {
     background-color: rgb(40, 40, 46);
 
 }
 
 .neon-border {
-    border: 2px solid #00f; /* Azul */
+    border: 2px solid #00f;
+    /* Azul */
     box-shadow: 0 0 10px #00f, 0 0 .1px #00f, 0 0 .1px #00f;
     transition: 0.3s ease-in-out;
-  }
-  
-  .neon-border:hover {
-    box-shadow: 0 0 10px #00f, 0 0 7px #00f, 0 0 7px #00f;
+}
 
-  }
+.neon-border:hover {
+    box-shadow: 0 0 10px #00f, 0 0 7px #00f, 0 0 7px #00f;
+}
+
+.neon-borderForm {
+    border: 2px solid #00f;
+    /* Azul */
+    transition: 0.3s ease-in-out;
+}
+
+.neon-borderForm:hover {
+    box-shadow: 0 0 10px #00f, 0 0 1px #00f, 0 0 1px #00f;
+}
+
+.fundo {
+    background-color: #12132b;
+}
+
+.colorText::placeholder {
+    color: white;
+}
