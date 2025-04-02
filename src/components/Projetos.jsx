@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "../../src/App.css"
 
 function Projetos() {
   const settings = {
@@ -61,7 +62,7 @@ function Projetos() {
               rel="noopener noreferrer"
               className="text-decoration-none"
             >
-              <div className="card bg-white shadow-lg rounded-xl overflow-hidden transform hover:scale-105 transition duration-300 h-full">
+              <div className="card bg-white rounded-xl overflow-hidden transform hover:scale-105 transition duration-300 h-full neon-border">
                 <img
                   src={projeto.img}
                   className="card-img-top w-full h-48 object-cover"

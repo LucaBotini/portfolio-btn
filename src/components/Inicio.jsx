@@ -43,8 +43,8 @@ function Inicio() {
                 src="github.svg"
                 alt="Perfil GitHub"
                 className="img-fluid"
-                height="48"
-                width="48"
+                height="45"
+                width="45"
                 whileHover={{ scale: 1.1 }}
               />
             </a>
