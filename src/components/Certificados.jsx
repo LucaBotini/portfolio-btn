@@ -38,7 +38,7 @@ function Certificados() {
                     <img src="flash.svg" alt="Flash" className="img-fluid" style={{ maxWidth: "80px" }} />
                 </Col>
                 <Col xs="auto">
-                    <h1 className="text-white fw-bold">Meus Certificados</h1>
+                    <h1 className="text-white fw-bold">Certificados</h1>
                 </Col>
                 <Col xs="auto">
                     <img src="flash.svg" alt="Flash" className="img-fluid" style={{ maxWidth: "80px" }} />
