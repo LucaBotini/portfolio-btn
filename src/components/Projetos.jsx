@@ -46,6 +46,13 @@ function Projetos() {
       descricao: "Plataforma para apresentar projetos e presença digital.",
       tecnologias: "React Vite, Javascript, Bootstrap",
       link: "" // Adicione o link aqui
+    },
+    {
+      img: "basecreative.png",
+      titulo: "Base Creative Network V2",
+      descricao: "Base de GTA Roleplay, para donos de servidores criarem sua cidade virtual.",
+      tecnologias: "Lua, Javascript, Fivem Creative Network",
+      link: "https://www.youtube.com/watch?v=ZI3xz5nCdig&t=101s" // Adicione o link aqui
     }
   ];
 
