@@ -57,7 +57,7 @@ function Projetos() {
   ];
 
   return (
-    <div className="container text-center mt-6 px-4">
+    <div id="projetos" className="container text-center mt-6 px-4">
       <h1 className="text-3xl font-semibold text-gray-800 mb-8 text-white">Meus Projetos</h1>
 
       <Slider {...settings}>

@@ -53,7 +53,7 @@ function Contato() {
   };
 
   return (
-    <Container className="mt-5">
+    <Container className="mt-5" id="contato">
       {/* Formulário de Contato */}
       <Row className="mt-5">
         <Col md={6} className="mx-auto">

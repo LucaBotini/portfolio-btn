@@ -32,7 +32,7 @@ const certificados = [
 
 function Certificados() {
     return (
-        <Container className="text-center mt-5">
+        <Container id="certificados" className="text-center mt-5">
             <Row className="justify-content-center align-items-center mb-4">
                 <Col xs="auto">
                     <img src="flash.svg" alt="Flash" className="img-fluid" style={{ maxWidth: "80px" }} />

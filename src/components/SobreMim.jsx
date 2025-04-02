@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Sobremim() {
   return (
-    <Container className="text-center mt-5">
+    <Container id="sobre" className="text-center mt-5">
       <Row className="justify-content-center align-items-center">
         {/* Imagem ao lado do título */}
         <Col xs="auto">

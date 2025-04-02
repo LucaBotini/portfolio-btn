@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Inicio() {
   return (
-    <Container className="mt-5">
+    <Container className="mt-5" id="inicio">
       <Row className="align-items-center">
         {/* Coluna do Texto */}
         <Col lg={6} className="text-center text-lg-start">

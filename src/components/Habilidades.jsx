@@ -26,7 +26,7 @@ function Habilidades() {
     ];
 
     return (
-        <Container className="text-center mt-5">
+        <Container id="habilidades" className="text-center mt-5">
             <Row className="justify-content-center align-items-center">
                 {/* Ícone ao lado do título */}
                 <Col xs="auto">
