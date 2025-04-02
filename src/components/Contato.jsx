@@ -23,7 +23,7 @@ function Contato() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const webhookURL = "https://discord.com/api/webhooks/1356784128279838882/Kos1c9L9IsSYnBv5c2imMx-WGu1bg5eqoctp0q7P5l4aUukdLIcNY0a62VKAZVFbZEB9";
+    const webhookURL = "https://discord.com/api/webhooks/1356793784330883194/2DB7ZfDdE6FuHeqymyYK_1I0-Dw0syYe_g24Auh-OHBWlWmxOnbNsjkUYXsadDPhTpz3";
     const messageContent = {
       content: `Novo contato:\n**Nome:** ${formData.name}\n**Email:** ${formData.email}\n**Mensagem:** ${formData.message}`
     };

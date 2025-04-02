@@ -28,6 +28,11 @@ body {
     background-color: #12132b;
 }
 
-.colorText::placeholder {
+.colorText::placeholder, .colorText {
+    color: white;
+}
+.colorText:focus{
+    border: none; /* Remove a borda */
+    outline: none;
     color: white;
 }
