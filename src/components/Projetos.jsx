@@ -53,6 +53,13 @@ function Projetos() {
       descricao: "Base de GTA Roleplay, para donos de servidores criarem sua cidade virtual.",
       tecnologias: "Lua, Javascript, Fivem Creative Network",
       link: "https://www.youtube.com/watch?v=ZI3xz5nCdig&t=101s" // Adicione o link aqui
+    },
+    {
+      img: "ar.png",
+      titulo: "Website América Rental",
+      descricao: "Website completo realizado por mim e Edvam S. para a empresa Ámerica Rental.",
+      tecnologias: "Wordpress, Elementor Pro",
+      link: "https://www.americarental.com.br" // Adicione o link aqui
     }
   ];
 

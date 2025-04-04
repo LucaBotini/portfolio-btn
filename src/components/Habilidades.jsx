@@ -1,3 +1,4 @@
+// COR DAS LOGOS DE HABILIDADES#5789ff
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -19,6 +20,7 @@ function Habilidades() {
         { name: "Vite", img: "vite.svg", link: "https://vitejs.dev/" },
         { name: "Bootstrap", img: "bootstrap.svg", link: "https://getbootstrap.com/" },
         { name: "Postman", img: "postman.svg", link: "https://learning.postman.com/" },
+        { name: "Wordpress", img: "wordpress.svg", link: "https://wordpress.org/documentation/" },
         { name: "GIT", img: "git.svg", link: "https://git-scm.com/doc" },
         { name: "Linux", img: "linux.svg", link: "https://www.kernel.org/doc/html/latest/" },
         { name: "Windows", img: "windows.svg", link: "https://learn.microsoft.com/en-us/windows/" },
