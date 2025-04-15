@@ -1,39 +1,38 @@
-# Portfólio - Luca Botini
+# 💼 Portfólio - Luca Botini
 
-Este é o meu portfólio pessoal, desenvolvido com **React**, **Vite** e **Bootstrap**. A aplicação tem como objetivo apresentar meus projetos e habilidades de desenvolvimento, incluindo detalhes sobre minha experiência como desenvolvedor.
+Este é meu portfólio pessoal, desenvolvido com **React**, **Vite**, **Bootstrap** e **Framer Motion**. O objetivo é apresentar meus projetos, habilidades e experiências como desenvolvedor de forma moderna, interativa e responsiva.
 
-## Tecnologias Usadas
+## 🚀 Tecnologias Utilizadas
 
-- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
-- **Vite**: Ferramenta de build rápida e leve para React.
-- **Bootstrap**: Framework de CSS para criar layouts responsivos e componentes UI.
-- **Framer Motion**: Biblioteca para animações em React.
+- **React** — Biblioteca JavaScript para criação de interfaces dinâmicas.
+- **Vite** — Ferramenta de build ultrarrápida e moderna para aplicações frontend.
+- **Bootstrap** — Framework CSS para construção de layouts responsivos com agilidade.
+- **Framer Motion** — Biblioteca para animações fluidas e interativas em React.
 
-## Funcionalidades
+## ✨ Funcionalidades
 
-- **Animações suaves**: Usando o Framer Motion, a interface possui animações de entrada, como desvanecimento e transições de elementos.
-- **Layout responsivo**: A interface se adapta a diferentes tamanhos de tela, utilizando o sistema de grid do Bootstrap.
-- **Links para redes sociais**: Links interativos para meus perfis no GitHub e LinkedIn.
-- **Design atrativo**: Estilo visual limpo e moderno com um toque de efeitos como texto em neon.
+- **Animações suaves** com Framer Motion para melhorar a experiência do usuário.
+- **Layout totalmente responsivo**, adaptando-se perfeitamente a dispositivos móveis e desktops.
+- **Links interativos para redes sociais**, como GitHub e LinkedIn.
+- **Design moderno**, com toques visuais como efeitos de texto neon, cores suaves e componentes bem distribuídos.
 
-## Instalação
-
-Para rodar o projeto localmente, siga as instruções abaixo:
+## 🛠️ Como executar o projeto localmente
 
 ### Pré-requisitos
 
-Certifique-se de ter o **Node.js** instalado em sua máquina. Você pode verificar a versão do Node.js com o comando:
+- Ter o **Node.js** instalado em sua máquina (você pode verificar com `node -v`).
 
-## Passo 1
+### Passos para iniciar:
+
+```bash
+# Clone o repositório
 git clone https://github.com/LucaBotini/portfolio.git
 
-## Passo 2
-cd portfolio
+# Acesse a pasta do projeto
+cd portfolio-btn
 
-## Passo 3
-npm install
+# Instale as dependências
+npm install ou npm i
 
-## Passo 4
+# Inicie o servidor de desenvolvimento
 npm run dev
-
-
