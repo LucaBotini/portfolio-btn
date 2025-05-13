@@ -64,12 +64,11 @@ function Projetos() {
       link: "https://www.americarental.com.br",
     },
     {
-      img: "botcs.png",
-      titulo: "Landpage: Apresentação de serviço premium",
-      descricao:
-        "Landing page criada para divulgar o CS, bot com funções exclusivas.",
-      tecnologias: "React Vite, Javascript, Bootstrap 5",
-      link: "https://landpage-cs.vercel.app",
+      img: "btn-site.png",
+      titulo: "Website profissional de vendas.",
+      descricao: "Site completo com vendas e gerenciamento de clientes.",
+      tecnologias: "React Vite, NodeJS, Bootstrap 5, MySQL, Stripe",
+      link: "https://botinicommunity.squareweb.app",
     },
   ];
 

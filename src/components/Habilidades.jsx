@@ -34,6 +34,7 @@ function Habilidades() {
       img: "mongodb.svg",
       link: "https://www.mongodb.com/docs/",
     },
+    { name: "Python", img: "python.svg", link: "https://www.python.org/doc/" },
     { name: "MYSQL", img: "mysql.svg", link: "https://dev.mysql.com/doc/" },
     {
       name: "HTML5",
