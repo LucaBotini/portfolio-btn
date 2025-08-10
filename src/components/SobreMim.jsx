@@ -8,7 +8,12 @@ function Sobremim() {
       <Row className="justify-content-center align-items-center">
         {/* Imagem ao lado do título */}
         <Col xs="auto">
-          <img src="flash.svg" alt="Flash" className="img-fluid" style={{ maxWidth: "80px" }} />
+          <img
+            src="flash.svg"
+            alt="Flash"
+            className="img-fluid"
+            style={{ maxWidth: "80px" }}
+          />
         </Col>
 
         {/* Título */}
@@ -18,7 +23,12 @@ function Sobremim() {
 
         {/* Imagem ao lado do título */}
         <Col xs="auto">
-          <img src="flash.svg" alt="Flash" className="img-fluid" style={{ maxWidth: "80px" }} />
+          <img
+            src="flash.svg"
+            alt="Flash"
+            className="img-fluid"
+            style={{ maxWidth: "80px" }}
+          />
         </Col>
       </Row>
 
@@ -26,17 +36,25 @@ function Sobremim() {
       <Row className="mt-4">
         <Col md={4} className="d-flex justify-content-center">
           <img
-            src="me.png" 
-            alt="Minha Foto" 
-            className="img-fluid rounded-circle" 
-            style={{ maxWidth: "200px" }} 
+            src="eudeterno.png"
+            alt="Minha Foto"
+            className="img-fluid rounded-circle"
+            style={{ maxWidth: "200px" }}
           />
         </Col>
 
         <Col md={8} className="d-flex align-items-center">
           <p className="text-white">
-            Opa, eai! Sou <span className="text-primary">Luca Botini</span>.<br/>Um <span className="text-primary">solucionador de problemas</span> que o seu negócio <span className="text-primary">precisa</span>! 
-            Com experiência em diversas tecnologias, adoro aprender e me aprimorar constantemente. O trabalho em equipe é essencial mas o desafio pessoal é também um grande ponto. Adoro solucionar os desafios e ajudar o grupo sempre que possivel!
+            Opa, eai! Sou <span className="text-primary">Luca Botini</span>.
+            <br />
+            Um <span className="text-primary">
+              solucionador de problemas
+            </span>{" "}
+            que o seu negócio <span className="text-primary">precisa</span>! Com
+            experiência em diversas tecnologias, adoro aprender e me aprimorar
+            constantemente. O trabalho em equipe é essencial mas o desafio
+            pessoal é também um grande ponto. Adoro solucionar os desafios e
+            ajudar o grupo sempre que possivel!
           </p>
         </Col>
       </Row>

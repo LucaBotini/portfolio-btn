@@ -46,7 +46,12 @@ function Habilidades() {
       img: "css3.svg",
       link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
     },
-    { name: "React", img: "react.svg", link: "https://react.dev/" },
+    { name: "React", img: "react.svg", link: "https://reactnative.dev" },
+    {
+      name: "React Native",
+      img: "reactnative.svg",
+      link: "https://react.dev/",
+    },
     { name: "Vite", img: "vite.svg", link: "https://vitejs.dev/" },
     {
       name: "Bootstrap",

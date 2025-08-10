@@ -31,7 +31,7 @@ function Projetos() {
       titulo: "Sistema Estética Automotiva",
       descricao: "Gerencia clientes por placa, nome e contato.",
       tecnologias: "Javascript, Node.js, Express, Bootstrap 5",
-      link: "https://botiniwashmotos.squareweb.app",
+      link: "#",
     },
     {
       img: "botsDiscord.png",
