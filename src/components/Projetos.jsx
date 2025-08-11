@@ -76,7 +76,7 @@ function Projetos() {
       descricao:
         "(Clima GO!) Desenvolvido para falicitar a saída de casa com previsões de tempo.",
       tecnologias: "React Native, Javascript",
-      link: "https://uploadnow.io/f/vz2r8hB",
+      link: "https://drive.google.com/file/d/1BIUQPyOHRgpojho8rhBJPzIbc3bXaeoz/view?usp=sharing",
     },
   ];
 
