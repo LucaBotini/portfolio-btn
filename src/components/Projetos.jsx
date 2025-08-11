@@ -76,7 +76,7 @@ function Projetos() {
       descricao:
         "(Clima GO!) Desenvolvido para falicitar a saída de casa com previsões de tempo.",
       tecnologias: "React Native, Javascript",
-      link: "../../public/downloads/climago-v2.0.0.apk",
+      link: "https://uploadnow.io/f/vz2r8hB",
     },
   ];
 
