@@ -70,6 +70,14 @@ function Projetos() {
       tecnologias: "React Vite, NodeJS, Bootstrap 5, MySQL, Stripe",
       link: "https://botinicommunity.squareweb.app",
     },
+    {
+      img: "climago.png",
+      titulo: "App Mobile Temperatura. (Clique para baixar)",
+      descricao:
+        "(Clima GO!) Desenvolvido para falicitar a saída de casa com previsões de tempo.",
+      tecnologias: "React Native, Javascript",
+      link: "../../public/downloads/climago-v2.0.0.apk",
+    },
   ];
 
   return (
