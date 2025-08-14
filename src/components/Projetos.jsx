@@ -27,6 +27,37 @@ function Projetos() {
 
   const projetos = [
     {
+      img: "btn-site.png",
+      titulo: "Website profissional de vendas.",
+      descricao: "Site completo com vendas e gerenciamento de clientes.",
+      tecnologias: "React Vite, NodeJS, Bootstrap 5, MySQL, Stripe",
+      link: "https://botinicommunity.squareweb.app",
+    },
+    {
+      img: "climago.png",
+      titulo: "App mobile temperatura. (Clique para baixar)",
+      descricao:
+        "(Clima GO!) Desenvolvido para falicitar a saída de casa com previsões de tempo.",
+      tecnologias: "React Native, Javascript",
+      link: "https://drive.google.com/file/d/1BIUQPyOHRgpojho8rhBJPzIbc3bXaeoz/view?usp=sharing",
+    },
+    {
+      img: "appappointments.png",
+      titulo: "Aplicativo de agendamentos. (Clique para baixar)",
+      descricao:
+        "(APP-APPOINTMENTS!) Desenvolvido para clientes resolverem o problema de agendamentos.",
+      tecnologias: "React Native, Javascript",
+      link: "https://drive.google.com/file/d/1qeAQOZ3GBrP28b4QvJKQIWUOQWfgd3TP/view?usp=sharing",
+    },
+    {
+      img: "ar.png",
+      titulo: "Website América Rental",
+      descricao:
+        "Website completo realizado por mim e Edvam S. para a empresa Ámerica Rental.",
+      tecnologias: "Wordpress, Elementor Pro",
+      link: "https://www.americarental.com.br",
+    },
+    {
       img: "login1.png",
       titulo: "Sistema Estética Automotiva",
       descricao: "Gerencia clientes por placa, nome e contato.",
@@ -54,29 +85,6 @@ function Projetos() {
         "Base de GTA Roleplay, para donos de servidores criarem sua cidade virtual.",
       tecnologias: "Lua, Javascript, Fivem Creative Network",
       link: "https://www.youtube.com/watch?v=ZI3xz5nCdig&t=101s",
-    },
-    {
-      img: "ar.png",
-      titulo: "Website América Rental",
-      descricao:
-        "Website completo realizado por mim e Edvam S. para a empresa Ámerica Rental.",
-      tecnologias: "Wordpress, Elementor Pro",
-      link: "https://www.americarental.com.br",
-    },
-    {
-      img: "btn-site.png",
-      titulo: "Website profissional de vendas.",
-      descricao: "Site completo com vendas e gerenciamento de clientes.",
-      tecnologias: "React Vite, NodeJS, Bootstrap 5, MySQL, Stripe",
-      link: "https://botinicommunity.squareweb.app",
-    },
-    {
-      img: "climago.png",
-      titulo: "App Mobile Temperatura. (Clique para baixar)",
-      descricao:
-        "(Clima GO!) Desenvolvido para falicitar a saída de casa com previsões de tempo.",
-      tecnologias: "React Native, Javascript",
-      link: "https://drive.google.com/file/d/1BIUQPyOHRgpojho8rhBJPzIbc3bXaeoz/view?usp=sharing",
     },
   ];
 
