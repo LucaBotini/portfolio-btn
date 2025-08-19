@@ -59,6 +59,11 @@ function Habilidades() {
       link: "https://getbootstrap.com/",
     },
     {
+      name: "Docker",
+      img: "docker.svg",
+      link: "https://hub.docker.com/",
+    },
+    {
       name: "Postman",
       img: "postman.svg",
       link: "https://learning.postman.com/",
