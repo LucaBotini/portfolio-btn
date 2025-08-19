@@ -33,11 +33,11 @@ const certificados = [
     link: "https://drive.google.com/file/d/1g6xEHgbbuLGIIoU58wPYViH_1Mca_Gdy/view",
   },
   {
-    titulo: "[Em andamento] React",
+    titulo: "React básico a avançado",
     descricao:
       "Curso de React pela Udemy com Matheus Fraga, onde aprendi a criar interfaces dinâmicas utilizando componentes, props e estados, além de boas práticas de organização de código e integração com APIs.",
     horas: 24.5,
-    link: "#",
+    link: "https://www.udemy.com/certificate/UC-c672bacb-633b-4080-814b-4eccaed29286",
   },
   {
     titulo: "[Em andamento] Node.js - Express - MongoDB - MySQL",
